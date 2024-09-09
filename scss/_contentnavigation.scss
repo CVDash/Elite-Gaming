@@ -7,12 +7,12 @@
 .contentcontainer {
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 30px 40px;
     
 }
 
 .contentcontainer img{
-    width: 350px;
+    width: 450px;
 }
 .contentnavigation p{
     color:#c3d4cf;
@@ -30,10 +30,23 @@
 }
 
 .content1, .content2, .content3 {
-    width: 350px;
+    width: 450px;
     padding-bottom: 20px;
     
 }
+
+@media only screen and (max-width:1800px)
+{
+    .contentcontainer img {
+        width: 350px;
+    }
+
+    .content1, .content2, .content3 {
+        width: 350px;
+        
+    }
+}
+
 
 @media only screen and (max-width:1150px) {
     .contentcontainer img {
