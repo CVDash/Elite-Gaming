@@ -1,0 +1,17 @@
+@font-face { font-family: Metropolis; src: url(/misc/Metropolis-Regular.otf); }
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    font-family: Metropolis, sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 0;
+}
+
+a {
+    text-decoration: none;
+}

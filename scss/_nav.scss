@@ -1,0 +1,44 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    align-items: center;
+    background-color: #94B3A9;
+}
+.logo img {
+    width: 120px;
+}
+.burgermenu i {
+font-size: 40px;
+color: #02513B;
+}
+.computernav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.computernav a {
+    text-decoration: none;
+    color: #02513B;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (min-width: 901px) {
+    .burgermenu {
+        display: none;
+    }
+    .computernav {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 901px) {
+    .burgermenu {
+        display: block;
+    }
+    .computernav {
+        display: none;
+    }
+}

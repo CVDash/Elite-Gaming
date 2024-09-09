@@ -1,0 +1,11 @@
+{
+  "name": "elite-gaming",
+  "version": "1.0.0",
+  "description": "Mock Hjemmeside",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass scss:css --watch"
+  },
+  "author": "Cosmin Valeanu",
+  "license": "ISC"
+}
